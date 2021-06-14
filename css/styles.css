@@ -1,15 +1,15 @@
 body{
     font-family: 'Rubik', sans-serif;
-    font-size: 18px;
     margin: 0;
     font-weight: lighter;
+    width: 100%;
 }
 
 body > *{
     padding: 20px;
 }
 
-header, footer{
+header{
     background-color: #fef7fa;
     text-align: center;
 }
@@ -44,17 +44,17 @@ main ul li{
 }
 
 main ul li:hover{
-    border: 2px solid gray;
+    border: 2px solid #8492a6;
 }
 
 main ul li a{
     padding: 50px;
     text-decoration: none;
-    color: black;
+    color: #000000;
     display: block;
     font-weight: bold;
 }
 
 main ul li:hover a{
-    color: gray;
+    color: #8492a6;
 }
