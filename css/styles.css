@@ -1,5 +1,5 @@
 body{
-    font-family: 'Rubik', 'Roboto', 'Arial', 'Helvetica', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 18px;
     margin: 0;
     font-weight: lighter;
@@ -48,28 +48,13 @@ main ul li:hover{
 }
 
 main ul li a{
-    padding: 20px;
+    padding: 50px;
     text-decoration: none;
     color: black;
     display: block;
+    font-weight: bold;
 }
 
 main ul li:hover a{
-    color: gray;
-}
-
-footer{
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-}
-
-footer a{
-    font-size: 0.8em;
-    text-decoration: none;
-    color: black;
-}
-
-footer a:hover{
     color: gray;
 }
