@@ -5,59 +5,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PetShop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="../css/petshop.css">
 </head>
 <body>
     <header>
-        <section>
+        <div class="banner-secundario">
             <p>Grandes ofertas en comedores</p>
-            <ul>
-                <li><a href="">Español</a></li>
-                <li><a href="">ARG$</a></li>
+            <ul type="none">
+                <li><a href="">Español <i class="fas fa-chevron-down"></i></a></li>
+                <li><a href="">ARG$ <i class="fas fa-chevron-down"></i></a></li>
             </ul>
-        </section>
-        <section>
-            <a href=""><img src="../img/petshop/logo.png" alt="Cat&Dog"></a>
-            <nav>
-                <ul>
-                    <li><a href=""><img src="../img/petshop/paw.png" alt="Categorias"> Categorías</a></li>
-                    <li><a href=""><img src="../img/petshop/paw.png" alt="Pets"> Pets</a></li>
-                    <li><a href=""><img src="../img/petshop/paw.png" alt="Nosotros"> Nosotros</a></li>
-                    <li><a href=""><img src="../img/petshop/paw.png" alt="Contactanos"> Contactanos</a></li>
-                </ul>
-            </nav>
-        </section>
+        </div>
+        <nav>
+            <a href=""><img src="../img/petshop/logo_positivo.png" alt="Cat&Dog"></a>
+            <ul type="none">
+                <li><a href=""><i class="fas fa-paw"></i> Categorías</a></li>
+                <li><a href=""><i class="fas fa-paw"></i> Pets</a></li>
+                <li><a href=""><i class="fas fa-paw"></i> Nosotros</a></li>
+                <li><a href=""><i class="fas fa-paw"></i> Contactanos</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <section id="banner">
-            <img src="../img/petshop/bowl-and-pet-daities.png" alt="Banner">
-            <div>
-                <h2>¡Es un placer tenerte aquí!</h2>
-                <p>¡Comederos en descuento!</p>
-            </div>
-            <a href="">COMEDEROS</a>
+        <section id="banner" class="banner">
+            <h1>¡Es un placer tenerte aquí!</h1>
+            <p>¡Comederos en descuento!</p>
+            <a href="">Comederos</a>
         </section>
-        <section id="productos">
-            <img src="../img/petshop/pawprint.png" alt="Patita">
-            <h1>Productos Destacados</h1>
+        <section id="productos" class="productos">
+            <h2><i class="fas fa-paw"></i><br>Productos Destacados</h2>
             <p>Comederos - Accesorios - Comida</p>
             <article>
                 <img src="../img/petshop/churrasquito.png" alt="Churrasquito">
                 <p>Juguete Churrasquito</p>
-                <p>$150</p>
+                <p class="precio">$150</p>
             </article>
             <article>
                 <img src="../img/petshop/comedero.png" alt="Comedero">
                 <p>Comedero para perro</p>
-                <p>$250</p>
+                <p class="precio">$250</p>
             </article>
             <article>
                 <img src="../img/petshop/huesito.png" alt="Huesito">
                 <p>Juguete Huesito</p>
-                <p>$650</p>
+                <p class="precio">$650</p>
             </article>
         </section>
     </main>
     <footer>
+        <section>
+            <ul type="none">
+                <li>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>
+                        Localidad
+                        <br>
+                        <small>Calle - provincia</small>
+                    </span>
+                </li>
+                <li>
+                    <i class="fas fa-phone-volume"></i>
+                    <span>
+                        Teléfono
+                        <br>
+                        <small>Número de teléfono</small>
+                    </span>
+                </li>
+                <li>
+                    <i class="fas fa-at"></i>
+                    <span>
+                        Correo Electrónico
+                        <br>
+                        <small>Dirección de correo</small>
+                    </span>
+                </li>
+            </ul>
+            <img src="../img/petshop/logo_negativo.png" alt="Cat&Dog">
+        </section>
         <p>Todos los derechos reservados Front End</p>
     </footer>
 </body>

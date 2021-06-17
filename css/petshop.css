@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/* general */
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+/* ======== */
+
+/* header */
+
+div.banner-secundario{
+    background-color: #222222;
+    color: #FFF;
+}
+
+nav{
+    background-color: #F0A83E;
+}
+
+/* ======== */
+
+/* main */
+
+main{
+    text-align: center;
+}
+
+section.banner{
+    background-image: url('../img/petshop/bowl-and-pet-daities.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+section.banner h1{
+    background-color: #FFF;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+section.banner a{
+    text-transform: uppercase;
+    background-color: #F0A83E;
+}
+
+section.productos h2{
+    font-size: 40px;
+}
+
+section.productos > p{
+    color: #666666;
+}
+
+article{
+    background-color: #FBFAF6;
+}
+
+article p.precio{
+    color: #F0A83E;
+}
+
+/* ======== */
+
+/* footer */
+
+footer section{
+    background-color: #3C2313;
+}
+
+footer ul li{
+    color: #FFF;
+}
+
+footer ul li i{
+    border: 2px solid #786960;
+    background-color: #8A8787;
+    font-size: 30px;
+}
+
+footer ul li span{
+    font-size: ;
+}
+
+footer ul li small{
+    color: #8A8787;
+}
+
+footer > p{
+    text-align: center;
+    background-color: #222222;
+    color: #FFF;
+}
+
+/* ======== */
