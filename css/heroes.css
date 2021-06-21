@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body > *{
+    padding: 15px;
+}
+
+body > div{
+    background-color: #1CD1B0;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+header, a, footer{
+    background-color: #00669F;
+}
+
+h1, h2{
+    font-weight: normal;
+}
+
+section{
+    position: relative;
+    width: 300px;
+    margin: 100px auto;
+    display: inline-block;    margin-right: 20px;
+}
+
+section i{
+    color: #CC2424;
+    font-size: 25px;
+    top: 15px;
+    left: 15px;
+}
+
+section i, section img.perfil{
+    position: absolute;
+}
+
+section img.perfil{
+    top: 30%;
+    left: 30%;
+    border-radius: 50%;
+}
+
+section > div{
+    text-align: center;
+    padding: 100px 15px 15px;
+    background-color: #F3F3F3;
+}
+
+section > div > h2{
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+section > div > p{
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+a{
+    padding: 10px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+a, footer{
+    color: #FFF;
+}
+
+a{
+    text-decoration: none;
+}
