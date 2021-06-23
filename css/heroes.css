@@ -28,11 +28,17 @@ h1, h2{
     font-weight: normal;
 }
 
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 section{
     position: relative;
     width: 300px;
-    margin: 100px auto;
-    display: inline-block;    margin-right: 20px;
+    margin: 100px 0;
+    display: inline-block;
 }
 
 section i{
