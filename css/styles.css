@@ -36,13 +36,13 @@ main ul{
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
+    gap: 10px;
 }
 
 main ul li{
     background-color: #fef7fa;
     border: 2px solid #fef7fa;
     text-align: center;
-    margin: 10px;
     width: 200px;
     height: 200px;
     display: flex;
