@@ -81,7 +81,3 @@ section.podio > div{
 footer ul{
     flex-direction: column;
 }
-
-/* footer ul li:nth-child(4){
-    order: 2;
-} */
